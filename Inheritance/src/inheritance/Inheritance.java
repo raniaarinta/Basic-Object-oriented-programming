@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package inheritance;
+
+/**
+ *
+ * @author USER
+ */
+public class Inheritance {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Car Ford= new Car("ADFGG", "Mustang", "1600", 190000, 4);
+        Truck Chevy = new Truck("FGHHSJS", "Colorado","2000", 8000000, 12);
+        Ford.load_pasanger();
+        Chevy.load_cargo();;
+        Ford.start_engine();
+        Chevy.start_engine();
+    }
+    
+}
